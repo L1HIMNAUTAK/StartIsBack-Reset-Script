@@ -6,24 +6,24 @@ A complete PowerShell tool to **fully clean up all traces of StartIsBack** from 
 
 ## ⚙️ Features
 
-- ✅ Deletes all known **StartIsBack registry keys** (HKCU/HKLM, including Wow6432Node)
-- ✅ Cleans orphaned **CLSID registry entries**
-- ✅ Includes user confirmation to prevent accidental execution
-- ✅ **Restarts Windows Explorer** automatically after cleanup
-- ✅ Minimal and safe – no external tools needed
+- ✅ Deletes all known **StartIsBack registry keys** (HKCU/HKLM, including Wow6432Node)  
+- ✅ Cleans orphaned **CLSID registry entries**  
+- ✅ Includes user confirmation to prevent accidental execution  
+- ✅ **Restarts Windows Explorer** automatically after cleanup  
+- ✅ Minimal and safe – no external tools needed  
 
 ---
 
 ## 📦 What It Removes
 
-- `HKEY_CURRENT_USER\Software\StartIsBack`
-- `HKEY_LOCAL_MACHINE\Software\StartIsBack`
-- `HKEY_LOCAL_MACHINE\Software\Wow6432Node\StartIsBack`
-- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\StartIsBack`
-- `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\StartIsBack`
+- `HKEY_CURRENT_USER\Software\StartIsBack`  
+- `HKEY_LOCAL_MACHINE\Software\StartIsBack`  
+- `HKEY_LOCAL_MACHINE\Software\Wow6432Node\StartIsBack`  
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\StartIsBack`  
+- `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\StartIsBack`  
 - Orphaned `CLSID` keys with:
   - No subkeys
-  - No `(default)` property value
+  - No `(default)` property value  
 
 ---
 
