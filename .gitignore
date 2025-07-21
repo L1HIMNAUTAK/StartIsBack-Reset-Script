@@ -1,0 +1,32 @@
+# Windows junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PowerShell cache and logs
+*.ps1xml
+*.psc1
+*.log
+
+# VSCode or Editor files
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+*.bak
+*.tmp
+
+# Git files
+*.orig
+*.swp
+*.swo
+
+# Exclude compiled or temp files if you ever use ISE or convert to EXE
+*.exe
+*.dll
+
+# Optional backup files
+*~
+*.old
+*.backup
