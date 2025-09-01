@@ -1,6 +1,6 @@
 Clear-Host
 Write-Host ''
-Write-Host 'STARTISBACK FULL RESET BY C44'
+Write-Host 'STARTISBACK FULL RESET BY L1himNaUtak'
 Write-Host 'This script will remove ALL remaining StartIsBack files and registry entries from your system.'
 Write-Host '!! At the end, the script will restart Explorer, closing all opened Explorer windows.'
 Write-Host ''
